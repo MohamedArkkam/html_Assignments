@@ -1,0 +1,141 @@
+body{
+    background-color: maroon;
+}
+input{
+    border: 1px white;
+    opacity: 30%;
+    margin-left: 10px;
+}
+button{
+    opacity: 80%;
+}
+.header{
+    background-color: rgb(99, 24, 24); width: 100%; height: 60px; display: flex; 
+}
+.logo{
+    background-color: rgb(99, 24, 24); width: 70%; height: 55px;
+    font-size: 40px; color: white; padding-top: 5px;
+}
+.logo span{
+    color: rgb(241, 211, 75);
+}
+.search{ 
+    background-color: rgb(99, 24, 24); width: 30%; height: 40px; 
+    padding-top: 20px;
+}
+label{
+    color: white; 
+}
+.welcome{
+    width: 100%; height: 180px;
+    position: relative; text-align: center; margin-bottom: 30px;
+}
+.w1 h4{
+    position: absolute; top: 10%; left: 50%;  transform: translate(-50%, -50%);
+}
+.w1 p{
+    position: absolute; top: 35%; left: 50%;  transform: translate(-50%, -50%);
+}
+.nav ul{ 
+    background-color: rgb(172, 49, 49); width: 98.35%; padding: 10px;
+}
+
+.nav ul li{
+    color: white;
+    display: inline-block; padding: 5px; padding-left: 120px;
+}
+.container{
+     width: 100%; display: inline-flex;
+}
+.sidebar{
+    display: block;
+    width: 20%;
+}
+.cus_login{
+    height: 120px;
+}
+.cus_login h3{
+    background-color: silver; color: maroon; height: 30px; font-size: 15px;
+    text-align: center; padding-top: 8px;
+}
+
+.blogs h3{
+    background-color: silver; color: maroon; height: 30px; font-size: 15px;
+    text-align: center; padding-top: 8px;
+}
+.bloglist article{
+    text-align: center; color: rgb(241, 211, 75) ;
+}
+.bloglist p{
+    color: white ; text-align: left; padding-left: 20px;
+}
+.section{
+    display: block;width: 80%; float: right;  margin-left: 50px;
+}
+.section1{
+    float: right; width: 100%; margin-bottom: 30px;
+}
+
+.latest_albums h3{
+    background-color: black; color: rgb(241, 211, 75);  height: 30px; font-size: 15px;
+    text-align: left; padding-top: 10px; padding-left: 20px; 
+}
+.latest_albums{
+    display: block;
+}
+.albumlist{
+    float: left; padding-right: 120px;
+}
+.albumlist h4{
+    color: rgb(241, 211, 75); margin-top: 5px; margin-bottom: 0;
+}
+.albumlist h5{
+    color: gray; margin-top: 5px; margin-bottom: 0;
+}
+.rating{
+    margin-bottom: 10px;
+}
+span .checked{
+    color: yellow;
+}
+.section2{
+    width: 100%; float: right; display: inline;
+}
+.news_album{
+    float: left; width: 45%;
+}
+.news_album h3{
+    background-color: black; color: rgb(241, 211, 75);  height: 30px; font-size: 15px;
+    text-align: left; padding-top: 10px; padding-left: 20px; 
+}
+.news{
+    display: block;
+}
+.newslist{
+    margin-bottom: 30px;
+}
+.newslist img{
+    float: left; margin-right: 30px;
+}
+.newsinfo h4{
+    margin-bottom: 0; color:rgb(241, 211, 75) ;
+}
+.newsinfo h5{
+    margin-bottom: 0;  margin-top: 1; color:gray ;
+}
+.newsinfo p{
+    color: white;
+}
+.downloads{
+    float: left; width: 50%; margin-left: 20px;
+}
+.downloads h3{
+    background-color: black; color: rgb(241, 211, 75);  height: 30px; font-size: 15px;
+    text-align: left; padding-top: 10px; padding-left: 20px; 
+}
+.songlist h4{
+    float: left; margin-right: 200px; margin-bottom: 25px; margin-top: 0; color: white;
+}
+.songlist button{
+    float: left; margin-bottom: 25px;
+}
